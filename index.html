@@ -22,7 +22,42 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
+    <style>
+      .project-card {
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          overflow: hidden;
+          width: 300px;
+          margin: 16px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          transition: 0.3s;
+      }
 
+      .project-card:hover {
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      }
+
+      .project-image {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+      }
+
+      .project-content {
+          padding: 16px;
+      }
+
+      .project-title {
+          font-size: 18px;
+          margin-bottom: 8px;
+          font-weight: bold;
+      }
+
+      .project-description {
+          font-size: 14px;
+          color: #555;
+      }
+  </style>
   </head>
 
   <body id="page-top">
@@ -69,7 +104,7 @@
             <span class="text-primary">Lee</span>
           </h1>
           <div class="subheading mb-5">4021 WOODRIVER DR APT 906, Corpus Christi, Tx 78410 · (361) 288-4814 ·
-            <a href="mailto:name@email.com">ericlee.it0521@gmail.com</a>
+            <a href="mailto:ericlee.it0521@gmail.com">ericlee.it0521@gmail.com</a>
           </div>
           <p class="mb-5">Quality-oriented professional Full Stack Developer with over 9 years of experience in building and maintaining
             end-to-end web applications. Proficient in designing and developing both backend services and frontend
@@ -78,22 +113,6 @@
             applications. Adept at collaborating with cross-functional teams and leading projects from conception to
             deployment.</p>
           <ul class="list-inline list-social-icons mb-0">
-            <!-- <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li> -->
             <li class="list-inline-item">
               <a href="https://linkedin.com/in/eric-lee" target="_blank">
                 <span class="fa-stack fa-lg">
@@ -258,9 +277,6 @@
               <i class="devicons devicons-laravel"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
-            </li>
-            <li class="list-inline-item">
               <i class="devicons devicons-sass"></i>
             </li>
             <li class="list-inline-item">
@@ -273,13 +289,22 @@
               <i class="devicons devicons-wordpress"></i>
             </li>
             <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
+              <i class="devicons devicons-nextjs"></i>
             </li>
             <li class="list-inline-item">
               <i class="devicons devicons-npm"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-typescript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bitbucket"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-dotnetcore"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-nestjs"></i>
             </li>
           </ul>
 
@@ -287,16 +312,16 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Frontend: React, Angular, Vue.js, Web3.js, Bootstrap, jQuery, Material UI and Responsive design</li>
+              Frontend: React, Angular, Vue.js, Bootstrap, jQuery, Material UI, Ant Design and Responsive design</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Backend: Node.js, Express.js, Laravel, Django, Spring Boot, Kotlin</li>
+              Backend: Node.js, Express.js, Laravel, Django, Java, Spring Boot, Kotlin, C#, ASP.NET</li>
             <li>
               <i class="fa-li fa fa-check"></i>
               Database: SQL, MySQL, MongoDB, PostgreSQL, DynamoDB</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
+              Mobile: React Native, Flutter, Android, Swift</li>
             <li>
               <i class="fa-li fa fa-check"></i>
               CI/CD, CircleCI, Jenkins</li>
@@ -306,6 +331,9 @@
             <li>
               <i class="fa-li fa fa-check"></i>
               AWS, Microservice, Azure, Firebase</li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
           </ul>
         </div>
       </section>
@@ -313,35 +341,61 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-            <li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
-          </ul>
+          <div class="d-flex flex-wrap">
+            <div class="project-card">
+              <img src="img/p (1).png" alt="Project Image" class="project-image">
+              <div class="project-content">
+                  <h3 class="project-title">Youna</h3>
+                  <p class="project-description">This is a Marketplace website.</p>
+                  <p class="project-description">React, Javascript, Sharetribe, Tailwind CSS, Node.</p>
+                  <a class="project-description" href="https://youna.co" target="_blank">https://youna.co</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="img/p (2).png" alt="Project Image" class="project-image">
+              <div class="project-content">
+                  <h3 class="project-title">Farly</h3>
+                  <p class="project-description">This is a E-Commerce website.</p>
+                  <p class="project-description">React, Typescript, Tailwind CSS, Material UI, Java, Spring Boot, AWS EC2, S3.</p>
+                  <a class="project-description" href="https://farly.co" target="_blank">https://farly.co</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="img/p (5).png" alt="Project Image" class="project-image">
+              <div class="project-content">
+                  <h3 class="project-title">Approove</h3>
+                  <p class="project-description">Cross Platform Mobile Attestation for Android, HarmonyOS and iOS.</p>
+                  <p class="project-description">Gatsby, Javascript, Bootstrap, Express.js, Hostinger.</p>
+                  <a class="project-description" href="https://approov.io" target="_blank">https://approove.io</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="img/p (4).png" alt="Project Image" class="project-image">
+              <div class="project-content">
+                  <h3 class="project-title">J&D Landscaping</h3>
+                  <p class="project-description">Real Estate.</p>
+                  <p class="project-description">Angular, NgRx, RxJS, WebSocket.</p>
+                  <a class="project-description" href="https://jdlandscaping.net/" target="_blank">https://jdlandscaping.net</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="img/p (6).png" alt="Project Image" class="project-image">
+              <div class="project-content">
+                  <h3 class="project-title">Stella</h3>
+                  <p class="project-description">Marketplace & Healthcare</p>
+                  <p class="project-description">React, Javascript, Sharetribe, Tailwind CSS.</p>
+                  <a class="project-description" href="https://www.seestella.com.au/" target="_blank">https://www.seestella.com.au</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="img/p (3).png" alt="Project Image" class="project-image">
+              <div class="project-content">
+                  <h3 class="project-title">CI/CD Ecosystem</h3>
+                  <p class="project-description">Github, Gitlab, Jira, Confluence, Docker, AWS Lambda, Kubernetes, Terraform, DataDog, Jenkins, JUnit, Jest, Webpack, Babel, Gradle.</p>
+                  <p class="project-description">Implemented CI/CD pipeline and VCS.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
